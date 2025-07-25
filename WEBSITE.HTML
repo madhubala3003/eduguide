@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>EDUGUIDE Stream Guidance</title>
+  <link rel="stylesheet" href="WEBSITE.CSS" />
+  <style>
+    .form-section {
+      position: relative;
+      text-align: center;
+    }
+
+    .submit-msg {
+      display: none;
+      color: green;
+      font-weight: bold;
+      margin-top: 10px;
+    }
+
+    .form-section:focus-within .submit-msg {
+      display: block;
+    }
+
+    input, textarea, button {
+      display: block;
+      margin: 10px auto;
+      padding: 8px;
+      width: 80%;
+      max-width: 400px;
+    }
+  </style>
+</head>
+<body>
+  <header class="hero">
+    <h1>EDUGUIDE</h1>
+    <p>Your trusted online counselling for Engineering, Medical, Agriculture & Arts admissions.<br>
+      Whether you're emerging as an engineer, aspiring to health sciences, exploring agricultural innovation, or pursuing creative and liberal arts, we provide strategic advice tailored to each pathway.
+      Fully virtual and flexible, our sessions bring expert educational counselling to your home—breaking geographic and scheduling barriers.
+    </p>
+  </header>
+
+  <nav class="navbar">
+    <ul>
+      <li><a href="#streams">Streams</a></li>
+      <li><a href="#about">About Us</a></li>
+      <li><a href="#booking">Book a Session</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <section id="streams" class="section">
+    <h2>Counseling Streams</h2>
+    <div class="cards">
+      <div class="card form-section">
+        <h3>Engineering</h3>
+        <p>Guidance for JEE, B.Tech & career pathways</p>
+        <form action="eng.html" method="get">
+          <button type="submit">Apply for Engineering</button>
+        </form>
+        <p class="submit-msg">📩 Submitting... Once verified, the details will be shared in your email.</p>
+      </div>
+
+      <div class="card form-section">
+        <h3>Medical</h3>
+        <p>NEET, MBBS, BDS applications and preparation</p>
+        <form action="med.html" method="get">
+          <button type="submit">Apply for Medical</button>
+        </form>
+        <p class="submit-msg">📩 Submitting... Once verified, the details will be shared in your email.</p>
+      </div>
+
+      <div class="card form-section">
+        <h3>Agriculture</h3>
+        <p>BSc Agri, agritech & agri-career options</p>
+        <form action="agr.html" method="get">
+          <button type="submit">Apply for Agriculture</button>
+        </form>
+        <p class="submit-msg">📩 Submitting... Once verified, the details will be shared in your email.</p>
+      </div>
+
+      <div class="card form-section">
+        <h3>Arts & Science</h3>
+        <p>BA & BSc literacy & science career options</p>
+        <form action="arts.html" method="get">
+          <button type="submit">Apply for Arts & Science</button>
+        </form>
+        <p class="submit-msg">📩 Submitting... Once verified, the details will be shared in your email.</p>
+      </div>
+
+      <div class="card form-section">
+        <h3>Veterinary & Animal Science</h3>
+        <p>BVSc & BFSc Veterinary, Animal Science & Animal care</p>
+        <form action="vet.html" method="get">
+          <button type="submit">Apply for Veterinary & Animal Science</button>
+        </form>
+        <p class="submit-msg">📩 Submitting... Once verified, the details will be shared in your email.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="about" class="section">
+    <h2>About Us</h2>
+    <p>With over 10 years of experience, we guide and help the students to achieve their academic goals at EDUGUIDE.
+      Streamlined Multi-Stream Counseling
+      From JEE/main & advanced, EAPCET, to NEET UG/PG, and Agri-Engineering or B.Sc. Agriculture pathways, our platform offers dedicated counselors equipped with real-time data, cut-offs, and college profiles. Rank-Based College Prediction & Choice Filling
+      Using historical cut-off trends and real-time counseling updates, we generate accurate college-branch predictions tailored by category, domicile state, and seat type—including management/NRI quotas.<br>
+      End-to-End Guidance
+      From registration and document verification to choice entry and seat allotment, our counselors provide step-by-step support, avoiding common pitfalls and delays
+    </p>
+  </section>
+
+  <section id="booking" class="section form-section">
+    <h2>Book a Session</h2>
+    <p>Choose your stream and schedule online counseling.<br>
+       Book a live session to get proper guidance from our counselors.
+    </p>
+    <form action="book.html" method="get" style="margin-top: 20px;">
+      <button type="submit" style="padding: 10px 20px; font-size: 16px;">Book Now</button>
+    </form>
+    <p class="submit-msg">📩 Submitting... Once verified, the details will be shared in your email.</p>
+  </section>
+
+  <section id="contact" class="section form-section">
+    <h2>Contact Us</h2>
+    <p>Contact us for more information about EDUGUIDE.<br>
+       Please provide your valid Name, Email, and Query.
+    </p>
+    <form>
+      <input type="text" placeholder="Your Name" required />
+      <input type="email" placeholder="Your Email" required />
+      <textarea placeholder="Your Query" required></textarea>
+      <button type="submit">Submit</button>
+    </form>
+    <p class="submit-msg">📩 Submitting... Once verified, the details will be shared in your email.</p>
+  </section>
+
+  <footer class="footer">
+    <p>© 2025 EDUGUIDE</p>
+  </footer>
+</body>
+</html>
